@@ -1,0 +1,144 @@
+/*------RESPONSIVE-STRAT------*/
+
+@media only screen and (max-width: 992px) {
+	.middle-top-area, .service-area,
+	.lead-area, .need-area, .method-area,
+	.guide-area, .faq-area,
+	.guarantee-area {padding: 5rem 2rem}
+	.middle-content {
+		margin-top: 6rem;
+	}
+	.service-heading h3, .lead-content h3,
+	.method-content h3,  .guide-content h3,
+	.need-content h3, .featured-heading h3,
+	.schedule-content h3{
+		font-size: 2.5rem!important;
+	}
+	.service-heading h3 {
+
+		width: 80%;
+	}
+	.service-area{
+		padding: 5rem 2rem;
+	}
+	.lead-item{
+		width: 80%;
+	}
+	.need-content h4{
+		width: 70%;
+		font-size: 2rem!important;
+	}
+	.need-content{
+		padding-top: 12rem;
+	}
+	.method-content h5{
+		width: 75%;
+		font-size: 1.6rem!important;
+	}
+	.guide-content h4{font-size: 2rem;}
+
+	.guide-content h5{
+		font-size: 1.6rem;
+		line-height: 2.6rem;
+		width: 75%;
+	}
+	.featured-heading h4, .img-content h4{
+		font-size: 1.8rem;
+	}
+	.featured-wrapper{
+		padding: 0 2rem;
+	}
+	.schedule-content h3{
+		line-height: 3.5rem;
+	}
+	.faq-content h2{
+		font-size: 3rem;
+	}
+  	.accordion-button{
+  		font-size: 1.6rem!important;
+
+  	}
+  	.accordion-body{
+  		font-size: 1.4rem!important
+  	}
+  	.guarantee-area{
+  		padding: 6rem 2rem;
+  	}
+	.content h2{
+		width: 85%;
+		font-size: 3rem;
+}
+	.content h5{
+	font-size: 1.6rem;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+	.middle-top-area, .service-area,
+	.lead-area, .need-area, .method-area,
+	.guide-area, .featured-area, .faq-area,
+	.guarantee-area {padding: 4rem 1.5rem}
+	.logo-area{width: 20%;}
+	.middle-content h3{width: 85%;}
+	.service-heading h3{width: 90%;}
+	.content-item h4{font-size: 1.8rem;}
+	.service-heading h3, .lead-content h3,
+	.method-content h3,  .guide-content h3,
+	.need-content h3, .featured-heading h3,
+	.schedule-content h3{
+		font-size: 2.2rem!important;
+	}
+	.top-area{clip-path: ellipse(110% 77% at 50% 21%);}
+	.lead-item h4{font-size: 1.8rem;}
+	.need-content h4{line-height: 3rem;}
+	.method-img{width: 70%;}
+	.guide-content h5{width: 90%;}
+	.featured{margin-bottom: 3rem}
+	.featured-heading h4{width: 50%; padding-bottom: 0;}
+	.featured-img img{
+		min-height: 250px;
+	}
+	.img-content h4{
+		font-size: 1.6rem;
+		font-weight: 600;
+		line-height: 2.4rem;
+	}
+	.featured-area{
+		padding-bottom: 22rem;
+	}
+	.content h2{width: 95%;
+		font-size: 2.5rem!important;
+		line-height: 3.5rem;}
+
+
+	}
+
+@media only screen and (max-width: 576px) {
+	.top-area{clip-path: ellipse(130% 77% at 50% 21%);}
+	.middle-top-area, .service-area,
+	.lead-area, .need-area, .method-area,
+	.guide-area, .featured-area, .faq-area,
+	.guarantee-area {padding: 3rem 1.5rem}
+	.top-content{width: 75%; margin: auto;}
+	.top-content h1{font-size: 2.5rem;}
+	.top-content h4{font-size: 1.8rem;}
+	.people-img{width: 70%;}
+	.looking-img{width: 85%;}
+	.service-content{text-align: center;}
+	.need-content{padding-top: 3rem; text-align: center;}
+	.need-content h4{ margin: auto; }
+	.need-img{margin: auto;}
+	.method-img{width: 80%; padding: 3rem 0rem 0rem 0rem}
+	.featured{margin-bottom: 11rem;}
+	.featured-heading h4{padding-bottom: 0; width: 65%;}
+	.accordion{
+		width: 70%; margin: auto;
+	}
+	.content{text-align: center;}
+	.schedule-content h3{width: 90%;}
+	.faq-content{text-align: center;}
+	.img-content{text-align: center;}
+	.guide-content h4{font-size: 1.8rem}
+}
